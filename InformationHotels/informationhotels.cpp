@@ -34,12 +34,12 @@ InformationHotels::InformationHotels()
      Apartaments1.push_back(Apart3);
      Apartaments1.push_back(Apart4);
 
-     Apartaments2.push_back(Apart3);
+
      Apartaments2.push_back(Apart4);
      Apartaments2.push_back(Apart2);
      Apartaments2.push_back(Apart1);
 
-     Apartaments3.push_back(Apart2);
+
      Apartaments3.push_back(Apart1);
      Apartaments3.push_back(Apart4);
      Apartaments3.push_back(Apart3);
