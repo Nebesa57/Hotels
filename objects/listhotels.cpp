@@ -12,20 +12,33 @@ ListHotels::ListHotels( QString NameHotel , QString AdressHotel , int RatingHote
     this->m_RatingHotel = RatingHotel;
 }
 
-void ListHotels::SetName(const QString &NameHotel)
+void ListHotels::SetName(const QString NameHotel)
 {
     this->m_NameHotel = NameHotel;
 }
 
-void ListHotels::SetAdressHotel(const QString &AdressHotel)
+void ListHotels::SetAdressHotel(const QString AdressHotel)
 {
     this->m_AdressHotel = AdressHotel;
 }
 
-void ListHotels::SetRatingHotel(const int &RatingHotel)
+void ListHotels::SetRatingHotel(const int RatingHotel)
 {
     this->m_RatingHotel = RatingHotel;
 }
+
+void ListHotels::SetTypeApartament( QVector<InformationApartments> vectorApartaments)
+{
+    this->m_vectorApartaments = vectorApartaments;
+}
+
+QVector<InformationApartments> ListHotels::GetType()
+{
+    return m_vectorApartaments;
+}
+
+
+
 
 
 
